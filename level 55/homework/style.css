@@ -1,0 +1,17 @@
+.red-green{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: red-green;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+}
+@keyframes red-green{
+  0%{
+    background-color: red;
+  }
+  100%{
+    background-color: green;
+  }
+}
